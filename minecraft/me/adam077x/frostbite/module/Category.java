@@ -1,0 +1,5 @@
+package me.adam077x.frostbite.module;
+
+public enum Category {
+	NONE,OTHER,EXPLOITS,MOVEMENT,BUILD,RENDER,WORLD,PLAYER,GUI,COMBAT,UNFINISHED,MISC
+}
