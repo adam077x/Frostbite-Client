@@ -14,6 +14,7 @@ public class CmdManager {
 		addCmd(new Bind());
 		addCmd(new BhopCmd());
 		addCmd(new MhopCmd());
+		addCmd(new JesusCmd());
 	}
 	
 	public void addCmd(Command cmd) {

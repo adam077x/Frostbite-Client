@@ -30,6 +30,7 @@ public class ModuleManager {
 		newMod(new Criticals());
 		newMod(new Killaura());
 		newMod(new FastPlace());
+		newMod(new Jesus());
 	}
 	
 	public static void newMod(Module m) {
