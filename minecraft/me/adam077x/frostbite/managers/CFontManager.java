@@ -16,7 +16,7 @@ public class CFontManager {
 		this.fm = new HashMap<String, CFontRenderer>();
 		
 		this.fm.put("Main_Font", new CFontRenderer(new Font("Arial", Font.PLAIN, 20), true, false));
-		this.fm.put("Client_Font", new CFontRenderer(new Font("Verdana", Font.PLAIN, 40), true, false));
+		this.fm.put("Client_Font", new CFontRenderer(new Font("Verdana", Font.PLAIN, 30), true, false));
 	}
 	
 	public static CFontManager getInstance() {

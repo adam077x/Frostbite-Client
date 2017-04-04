@@ -26,7 +26,7 @@ public class GuiHacks {
 			if(m.enabled == true) { m.onRender(); } 
 		}
 		
-		int yCount = 25;
+		int yCount = 20;
 		 for(Module m : ModuleManager.Modules) {
 			 if(!m.enabled) continue;
 			 renderString(m.Name, 5, yCount, 0x009933);
