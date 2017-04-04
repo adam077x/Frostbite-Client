@@ -17,8 +17,10 @@ public class Nofall extends Module{
 	}
 	
 	public void onUpdate() {
-			Wrapper.mc.thePlayer.sendQueue.addToSendQueue(new C03PacketPlayer(true));
-			Wrapper.mc.thePlayer.onGround = true;
+			if(Wrapper.mc.thePlayer.fallDistance > 2F){
+				Wrapper.mc.thePlayer.sendQueue.addToSendQueue(new C03PacketPlayer(true));
+			}
+			
 	}
 	
 	public void onDisable() {

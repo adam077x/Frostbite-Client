@@ -31,6 +31,7 @@ public class ModuleManager {
 		newMod(new Killaura());
 		newMod(new FastPlace());
 		newMod(new Jesus());
+		newMod(new Nuker());
 	}
 	
 	public static void newMod(Module m) {
