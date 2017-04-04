@@ -16,7 +16,7 @@ import net.minecraft.util.AxisAlignedBB;
 public class ChestESP extends Module{
 
 	public ChestESP() {
-		super("Cheat ESP", Keyboard.KEY_NONE, Category.RENDER);
+		super("Chest ESP", Keyboard.KEY_NONE, Category.RENDER);
 	}
 	public void onRender() {
 		for(Object o : Wrapper.mc.theWorld.loadedTileEntityList) {
