@@ -9,7 +9,7 @@ import me.adam077x.frostbite.utils.Wrapper;
 public class CreativeFly extends Module{
 
 	public CreativeFly() {
-		super("CreativeFly", Keyboard.KEY_F, Category.MOVEMENT);
+		super("CreativeFly", Keyboard.KEY_NONE, Category.MOVEMENT);
 	}
 	public void onUpdate() {
 		Wrapper.mc.thePlayer.capabilities.isFlying = true;

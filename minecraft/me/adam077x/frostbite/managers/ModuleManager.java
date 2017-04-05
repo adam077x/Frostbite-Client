@@ -33,6 +33,7 @@ public class ModuleManager {
 		newMod(new Jesus());
 		newMod(new Nuker());
 		newMod(new Stuck());
+		newMod(new Flight());
 		newMod(new Velocity());
 	}
 	
