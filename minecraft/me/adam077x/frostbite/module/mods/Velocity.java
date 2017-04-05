@@ -12,7 +12,7 @@ public class Velocity extends Module{
 	public static boolean Velocity;
 	
 	public Velocity() {
-		super("Anti-Velocity", Keyboard.KEY_NONE, Category.COMBAT);
+		super("NoVelocity", Keyboard.KEY_NONE, Category.COMBAT);
 	}
 	
 	public void onEnable() {

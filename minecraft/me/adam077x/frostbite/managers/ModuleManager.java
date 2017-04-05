@@ -32,6 +32,7 @@ public class ModuleManager {
 		newMod(new FastPlace());
 		newMod(new Jesus());
 		newMod(new Nuker());
+		newMod(new Stuck());
 		newMod(new Velocity());
 	}
 	
