@@ -1,5 +1,5 @@
 # Frostbite-Client
-This is Minecraft Hacked Client that i created in 2016/2017
+This is Minecraft Hacked Client that i with Vertyous created in 2016/2017
 
 ## Hacks
 * Aimbot
